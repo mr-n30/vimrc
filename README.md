@@ -1,14 +1,14 @@
 # vimrc
 `.vimrc` I use:
 ```sh
-set relativenumber
+t relativenumber
 set undofile
 set backup
 syntax on
 set autoindent
 set smartindent
 set shiftwidth=2
-nnoremap <C-M> :make!<ENTER>
+map <C-M> :w<CR>:!make<CR>
 colorscheme evening
 inoremap { {}<Esc>ha
 inoremap ( ()<Esc>ha
