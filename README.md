@@ -1,7 +1,7 @@
 # vimrc
 `.vimrc` I use:
 ```sh
-t relativenumber
+set relativenumber
 set undofile
 set backup
 syntax on
