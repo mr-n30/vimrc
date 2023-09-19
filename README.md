@@ -8,7 +8,7 @@ syntax on
 set autoindent
 set smartindent
 set shiftwidth=2
-nnoremap <C-M> :make<ENTER>
+nnoremap <C-M> :make!<ENTER>
 colorscheme evening
 inoremap { {}<Esc>ha
 inoremap ( ()<Esc>ha
