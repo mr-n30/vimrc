@@ -1,4 +1,4 @@
-set nocompatible              " be iMproved, required
+" Save file and go back to insert modeset nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -33,8 +33,8 @@ set is hls
 syntax on
 
 " Shortcuts
-map <C-M> :w<CR>:!make<CR> " Run make
-inoremap <C-S> <Esc>:w<CR><Esc>a " Save file and go back to insert mode
+map m <Esc>:w<CR>:!clear && make<CR>
+inoremap <C-s> <Esc>:w<CR>a
 
 " Theme
-colorscheme slate
+colorscheme koehler
