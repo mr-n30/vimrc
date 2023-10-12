@@ -1,4 +1,5 @@
 # vimrc
+`.vimrc` I use
 
 # Requirements
 Install [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start)
