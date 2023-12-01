@@ -45,7 +45,6 @@ nnoremap <C-f> :Files<CR>
 inoremap <C-f> <Esc>:Files<CR>
 nnoremap <C-h> :tabprevious<CR>
 nnoremap <C-l> :tabnext<CR>
-nnoremap <C-,> :!grep -PR 
 
 " Theme
 colorscheme evening
