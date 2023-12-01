@@ -27,7 +27,7 @@ Once in vim run the command bellow to install the `plugins` (See Usage section f
 :PlugInstall
 ```
 
-# Shortcuts
+# Usage
 `C` stands for `CTRL` for example in the first line by pushing `CTRL+s` will put `vim` into command mode, save the file, and enter into insert mode:
 ```bash
 inoremap <C-s> <Esc>:w<CR>a
